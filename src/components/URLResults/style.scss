@@ -1,0 +1,37 @@
+.url-result{
+  margin-top:2rem;
+  background-color: hsl(0, 0%, 75%);
+  padding:1.5rem 1rem;
+  &__lists{
+    display: flex;
+    flex-direction:column;
+    
+    &__item{
+      display: flex;
+      align-items:center;
+      justify-content: space-around;
+      margin-bottom: 1rem;
+      background-color: #fff;
+      padding: 1rem;
+      border-radius:5px;
+      
+      &__content{
+        max-height: 1em;
+        overflow: hidden;
+        flex: 66%
+      }
+      &__link{
+        margin-right: 1.5rem;
+        color: hsl(180, 66%, 49%);
+      }
+      &__button{
+        background-color: hsl(180, 66%, 49%);
+        color: #fff;
+        padding: 0.5rem 2rem;
+        border: none;
+        border-radius:5px;
+
+      }
+    }
+}
+}

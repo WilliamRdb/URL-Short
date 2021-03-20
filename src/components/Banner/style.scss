@@ -1,0 +1,28 @@
+.banner {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 5rem;
+}
+.banner__content {
+  width: 25%;
+}
+.banner__content__title {
+  font-size: 3rem;
+  font-weight: bold;
+  margin-bottom: 1rem;
+  color: hsl(257, 27%, 26%);
+}
+.banner__content__text {
+  color: hsl(0, 0%, 75%);
+  margin-bottom: 2rem;
+}
+.banner__content__button {
+  border-style: none;
+  color: white;
+  font-weight: bold;
+  background-color: hsl(180, 66%, 49%);
+  padding: 0.5rem 1rem;
+  border-radius: 50px; 
+}

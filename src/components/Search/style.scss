@@ -1,0 +1,35 @@
+.search {
+  background-color: hsl(260, 8%, 14%);
+  position: relative;
+  border-radius:10px;
+}
+.img {
+ 
+}
+.form {
+  display:flex;
+  position: absolute;
+  top: 4rem;
+  left: 3rem;
+  right:3rem;
+  width: 85%;
+  margin: auto auto;
+}
+.input {
+  width: 100%;
+  margin-right: 2rem;
+  border: none;
+  border-radius:10px;
+  padding:0 2rem;
+  font-size: 1.2rem;
+}
+.button {
+  width: 15%;
+  padding: 1rem;
+  color: #fff;
+  font-size:1rem;
+  font-weight: bold;
+  background-color: hsl(180, 66%, 49%);
+  border: none;
+  border-radius:10px;
+}
